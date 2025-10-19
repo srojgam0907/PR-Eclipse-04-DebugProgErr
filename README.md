@@ -44,8 +44,8 @@ Se corrige añadiendo las llaves correctas y su correspondiente else con la suma
 
 ## Plantilla
 
-
-
+![plantilla](capturas/07_plantilla(1).png)
+![plantilla](capturas/07_plantilla(2).png)
 
 
 
