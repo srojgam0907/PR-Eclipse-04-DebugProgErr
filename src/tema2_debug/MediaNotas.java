@@ -1,11 +1,12 @@
 package tema2_debug;
+import java.util.Scanner;
 
 public class MediaNotas {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); 
 
-        int contador = 0;
+        int contador = 1;
         double suma = 0;
 
         System.out.print("Introduce el número de alumnos: ");
@@ -15,11 +16,14 @@ public class MediaNotas {
             System.out.print("Introduce la nota del alumno " + contador + ": ");
             double nota = sc.nextDouble();
 
-            if (nota < 0 || nota > 10)
+            if (nota < 0 || nota > 10) {
                 System.out.println("Error: la nota debe estar entre 0 y 10");
-
-            suma = suma + nota;
-            contador++;
+            
+            } else {
+            	suma = suma + nota;
+            	contador++;
+            }
+            
         }
 
         double media = suma / numAlumnos;
